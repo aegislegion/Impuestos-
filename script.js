@@ -26,3 +26,4 @@ if  ((0 <  utilidad ) && (utilidad< 9950)) {
 
 var resultadoElemento = document.getElementById("resultado");
 resultadoElemento.textContent = "Impuestos a pagar:" + resultado.toFixed(2);
+}
