@@ -27,3 +27,4 @@ if  ((0 <  utilidad ) && (utilidad< 9950)) {
 
 var resultado=document.getElementById("Resultado");
     var resultado=impuesto;
+    resultadoElemento.textContent="El resultado es:"+ resultado;
