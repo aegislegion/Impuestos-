@@ -9,6 +9,12 @@ var Egresos = parseFloat(document.getElementById("num2").value);
 var utilidad = Ingresos - Egresos;
 var resultado=0;
 
+if (isNaN(Ingresos)) {
+        alert("Por favor, ingresa un valor numérico válido.");
+        return;
+    }
+
+    
 if  ((0 <  utilidad ) && (utilidad< 9950)) {
     resultado= utilidad*0.10; 
 } else if ((9950<utilidad)&&(utilidad < 40525)){
