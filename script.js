@@ -2,6 +2,7 @@ var Ingresos;
 var Egresos;
 var utilidad;
 var impuesto;
+var resultado;
 
 function Calcular() {
 var Ingresos = parseFloat(document.getElementById("num1").value);
@@ -24,5 +25,5 @@ if  ((0 <  utilidad ) && (utilidad< 9950)) {
 } else{
     impuesto=((utilidad-523601)*0.37) + 157803;};
 
-alert("El resultado es:"+impuesto);
-}
+var resultado=document.getElementById("Resultado");
+    var resultado=impuesto;
