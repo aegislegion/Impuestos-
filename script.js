@@ -7,7 +7,6 @@ function Calcular() {
 var Ingresos = parseFloat(document.getElementById("num1").value);
 var Egresos = parseFloat(document.getElementById("num2").value);
 var utilidad = Ingresos - Egresos;
-var resultado=0;
 
 if (isNaN(Ingresos)) {
         alert("Por favor, ingresa un valor numérico válido.");
@@ -32,4 +31,5 @@ if  ((0 <  utilidad ) && (utilidad< 9950)) {
 
 var resultadoElement = document.getElementById("result");
     resultadoElement.innerHTML = "Taxes to pay: $" + taxes.toFixed(2);
+        return;
 }
