@@ -30,6 +30,6 @@ if  ((0 <  utilidad ) && (utilidad< 9950)) {
 } else{
     resultado=((utilidad-523601)*0.37) + 157803;};
 
-var resultElement = document.getElementById("result");
-    resultElement.innerHTML = "Taxes to pay: $" + taxes.toFixed(2);
+var resultadoElement = document.getElementById("result");
+    resultadoElement.innerHTML = "Taxes to pay: $" + taxes.toFixed(2);
 }
