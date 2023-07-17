@@ -24,6 +24,5 @@ if  ((0 <  utilidad ) && (utilidad< 9950)) {
 } else{
     resultado=((utilidad-523601)*0.37) + 157803;};
 
-var resultadoElemento = document.getElementById("resultado");
-resultadoElemento.textContent = "Impuestos a pagar:" + resultado.toFixed(2);
+var resultado = document.getElementById("resultado");
 }
